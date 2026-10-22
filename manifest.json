@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube 清單網址擷取器",
+  "version": "1.0",
+  "description": "一鍵擷取 YouTube 播放清單中的所有影片連結",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "擷取播放清單網址"
+  }
+}
